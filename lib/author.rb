@@ -6,8 +6,8 @@ class Author
     @posts = []
   end
   
-  def add_movie(movie)
-  @movies << movie
+  def add_post(post)
+  @posts << post
   movie.cinema = self
 end
   
