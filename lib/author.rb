@@ -8,7 +8,7 @@ class Author
   
   def add_post(post)
   @posts << post
-  movie.cinema = self
+  post.author = self
 end
   
 end
